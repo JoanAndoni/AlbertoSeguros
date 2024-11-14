@@ -53,7 +53,7 @@
   align-items: center;
   justify-content: center;
   min-height: 90vh;
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   background-color: #003049;
 }
@@ -144,15 +144,54 @@ button {
 
 #steps-section {
   background-color: white;
+  min-height: 90vh;
+  height: 100vh;
+  width: 100%;
+  padding: 30px;
 }
 
 #steps-section h2 {
   padding-top: 60px;
   margin-left: 30px;
+  font-size: 16px;
 }
 
 #steps-section h1 {
   padding-top: 30px;
   margin-left: 30px;
+  font-size: 54px;
 }
-/* hola */
+
+#steps-section h3 {
+  font-size: 28px;
+  padding-bottom: 10px;
+}
+
+#steps-section p {
+  font-size: 18px;
+}
+
+.step-images {
+  height: 10vh;
+  padding-bottom: 10px;
+}
+
+.step-cards {
+  display: flex;
+  display: row;
+  align-items: center;
+  justify-content: center;
+  gap: 200px;
+  padding: 110px 0;
+}
+
+#first-step-card,
+#second-step-card,
+#third-step-card {
+  border: solid 2px transparent;
+  border-radius: 24px;
+  padding: 0px 70px 70px 70px;
+  text-align: left;
+  box-shadow: 0 8px 12px -6px rgba(0, 0, 0, 0.04),
+    0 6px 4px -1px rgba(0, 0, 0, 0.04), 0 4px 6px -2px rgba(0, 0, 0, 0.08);
+}
