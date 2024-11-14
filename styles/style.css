@@ -123,7 +123,6 @@ button {
   min-height: 200px;
   background: transparent;
 }
-
 .group {
   display: flex;
   gap: 120px;
