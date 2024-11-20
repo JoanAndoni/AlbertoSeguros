@@ -117,12 +117,11 @@
 
 .cards {
   width: 10%;
-  height: 10%;
-  padding: 20px;
+  height: 11rem;
+  padding: 2rem;
+  display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
-  background: blue;
 }
 .cards img {
   width: 300px;
