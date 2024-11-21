@@ -111,10 +111,21 @@
   text-shadow: 2px 3px white;
   padding-top: 30px;
 }
+
 .carrousel-cards {
   overflow: hidden;
   display: flex;
   width: 100%;
+}
+
+.group {
+  display: flex;
+  margin: 0 60px;
+  height: 130px;
+  gap: 120px;
+
+  will-change: transform;
+  animation: scrolling 30s linear infinite;
 }
 
 .cards {
@@ -130,19 +141,8 @@
   width: 300px;
 }
 
-.restart-img {
-  height: fit-content;
-  width: 300px;
-}
-
-.group {
-  height: 130px;
-  display: flex;
-  gap: 120px;
-  padding-right: 20px;
-
-  will-change: transform;
-  animation: scrolling 30s linear infinite;
+.gnp-svg {
+  height: 5.2rem;
 }
 
 @keyframes scrolling {
