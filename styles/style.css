@@ -18,7 +18,7 @@
   height: auto;
   width: 100vw;
   padding: 15px 10%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: rgb(221, 221, 221);
   border-radius: 24px;
   -webkit-backdrop-filter: blur(8px);
   backdrop-filter: blur(8px);
@@ -40,9 +40,10 @@
 }
 
 .navbar a {
-  color: #003049;
+  color: #4a6fa5;
   font-size: 18px;
   text-decoration: none;
+  text-shadow: 1px 2px white;
   text-align: end;
   margin-left: 40px;
 }
@@ -55,7 +56,7 @@
   min-height: 90vh;
   height: 100vh;
   width: 100%;
-  background-color: #003049;
+  background-color: #4a6fa5;
 }
 
 .hero-text {
@@ -99,14 +100,15 @@
 }
 
 #carrousel-section {
-  background-color: beige;
+  background-color: rgb(221, 221, 221);
   height: 250px;
 }
 
 #carrousel-section h3 {
-  color: #003049;
+  color: #4a6fa5;
   font-size: 25px;
   text-align: center;
+  text-shadow: 2px 3px white;
   padding-top: 30px;
 }
 .carrousel-cards {
@@ -154,15 +156,19 @@
 }
 
 #steps-section h2 {
+  color: #4a6fa5;
+  text-shadow: 2px 2px rgb(221, 221, 221);
   padding-top: 60px;
   margin-left: 30px;
   font-size: 16px;
 }
 
 #steps-section h1 {
+  color: #4a6fa5;
   padding-top: 30px;
   margin-left: 30px;
   font-size: 54px;
+  text-shadow: 2px 3px rgb(221, 221, 221);
 }
 
 #steps-section h3 {
@@ -220,13 +226,14 @@
   margin-top: 170px;
   padding: 20px;
   font-size: 40px;
-  color: white;
+  color: rgb(221, 221, 221);
+  text-shadow: 2px 2px #4a6fa5;
 }
 
 #newsletter-section h2 {
   padding: 20px;
   font-size: 14px;
-  color: white;
+  color: rgb(221, 221, 221);
 }
 
 #newsletter-section input {
