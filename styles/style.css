@@ -49,6 +49,8 @@
 
 .navbar a:hover {
   color: #dcd0be;
+  transform: rotate(360deg);
+  transition-duration: 1.5s;
 }
 
 #hero-section {
