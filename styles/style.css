@@ -43,9 +43,14 @@
   color: #4a6fa5;
   font-size: 18px;
   text-decoration: none;
-  text-shadow: 2px 3px white;
+  text-shadow: 2px 3px rgb(198, 197, 197);
   text-align: end;
   margin-left: 40px;
+}
+
+.navbar a:hover {
+  color: #dcd0be;
+  text-shadow: 1px 2px #4a6fa5;
 }
 
 #hero-section {
@@ -84,23 +89,31 @@
 #hero-section h1 {
   margin-bottom: 10px;
   font-size: 60px;
+  color: #f0ebe5;
+  text-shadow: 2px 2px #dcd0be;
 }
 
 #hero-section h2 {
   margin-bottom: 18px;
+  color: #f0ebe5;
 }
 
 .hero-text button {
-  background-color: #faed26;
+  background-color: #dcd0be;
   width: 20%;
   padding: 5px;
-  border: #faed26 solid 2px;
+  border: #dcd0be solid 2px;
   border-radius: 24px;
   height: 48px;
 }
+#hero-section button:hover {
+  background-color: #f0ebe5;
+  color: #4a6fa5;
+  border: #f0ebe5;
+}
 
 #carrousel-section {
-  background-color: rgb(221, 221, 221);
+  background-color: #dcd0be;
   height: 250px;
 }
 
@@ -108,7 +121,7 @@
   color: #4a6fa5;
   font-size: 25px;
   text-align: center;
-  text-shadow: 2px 3px white;
+  text-shadow: 3px 2px #f0ebe5;
   padding-top: 30px;
 }
 
@@ -155,7 +168,7 @@
 }
 
 #steps-section {
-  background-color: white;
+  background-color: #f0ebe5;
   min-height: 90vh;
   height: 100vh;
   width: 100%;
@@ -164,7 +177,7 @@
 
 #steps-section h2 {
   color: #4a6fa5;
-  text-shadow: 2px 2px rgb(221, 221, 221);
+  text-shadow: 2px 2px #dcd0be;
   padding-top: 60px;
   margin-left: 30px;
   font-size: 16px;
@@ -175,7 +188,7 @@
   padding-top: 30px;
   margin-left: 30px;
   font-size: 54px;
-  text-shadow: 2px 3px rgb(221, 221, 221);
+  text-shadow: 2px 3px #dcd0be;
 }
 
 #steps-section h3 {
@@ -231,8 +244,8 @@
   margin-top: 170px;
   padding: 20px;
   font-size: 40px;
-  color: rgb(221, 221, 221);
-  text-shadow: 2px 2px #4a6fa5;
+  color: #dcd0be;
+  text-shadow: 2px 3px #4a6fa5;
 }
 
 #newsletter-section h2 {
@@ -249,13 +262,18 @@
 }
 
 #newsletter-section button {
+  color: #2a2829;
   margin-top: 30px;
   height: 48px;
   margin-top: 30px;
-  border: #faed26 solid 2px;
-  background-color: #faed26;
+  border: #dcd0be 2px;
+  background-color: #dcd0be;
   border-radius: 100px;
   padding-left: 50px;
   padding-right: 50px;
   width: auto;
+}
+#newsletter-section button:hover {
+  background-color: #4a6fa5;
+  color: #f0ebe5;
 }
