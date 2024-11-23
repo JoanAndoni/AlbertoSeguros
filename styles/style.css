@@ -45,6 +45,11 @@
   text-decoration: none;
   text-align: end;
   margin-left: 40px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .navbar a:hover {
@@ -88,25 +93,40 @@
   margin-bottom: 10px;
   font-size: 60px;
   color: #f0ebe5;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #hero-section h2 {
   margin-bottom: 18px;
   color: #f0ebe5;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .hero-text button {
-  background-color: #dcd0be;
+  background-color: #f0ebe5;
+  border: #f0ebe5 solid 2px;
   width: 20%;
   padding: 5px;
-  border: #dcd0be solid 2px;
+  color: #263a99;
   border-radius: 24px;
   height: 48px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
+
 #hero-section button:hover {
-  background-color: #f0ebe5;
-  color: #4a6fa5;
-  border: #f0ebe5;
+  background-color: #4a6fa5;
+  color: #f0ebe5;
 }
 
 #carrousel-section {
@@ -119,6 +139,10 @@
   font-size: 25px;
   text-align: center;
   padding-top: 30px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .carrousel-cards {
@@ -173,10 +197,14 @@
 
 #steps-section h2 {
   color: #4a6fa5;
-  text-shadow: 2px 2px #dcd0be;
   padding-top: 60px;
   margin-left: 30px;
   font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 #steps-section h1 {
@@ -185,15 +213,28 @@
   margin-left: 30px;
   font-size: 54px;
   text-shadow: 2px 3px #dcd0be;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #steps-section h3 {
   font-size: 28px;
   padding-bottom: 10px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 #steps-section p {
   font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .step-images {
@@ -241,12 +282,21 @@
   padding: 20px;
   font-size: 40px;
   color: #f0ebe5;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 #newsletter-section h2 {
   padding: 20px;
   font-size: 14px;
   color: #f0ebe5;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 #newsletter-section input {
@@ -254,19 +304,29 @@
   font-size: 16px;
   padding: 20px 16px 20px 14px;
   margin-top: 30px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 #newsletter-section button {
-  color: #2a2829;
+  color: #263a99;
   margin-top: 30px;
   height: 48px;
   margin-top: 30px;
-  border: #dcd0be 2px;
-  background-color: #dcd0be;
+  border: #f0ebe5 2px;
+  background-color: #f0ebe5;
   border-radius: 100px;
   padding-left: 50px;
   padding-right: 50px;
   width: auto;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 #newsletter-section button:hover {
   background-color: #4a6fa5;
@@ -321,6 +381,10 @@
   display: block;
   width: 100%;
   margin-bottom: 20px;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .inner-footer .footer-third a {
@@ -331,26 +395,14 @@
   font-weight: 200;
   margin-bottom: 20px;
   padding-bottom: 5px;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .inner-footer .footer-third li {
   display: inline-block;
   padding: 0 5px;
-}
-
-.hero-button {
-  background-color: #faf0b9;
-  padding: 0.75rem 1.5rem;
-  border-radius: 32px;
-  width: max-content;
-  cursor: pointer;
-  border: none;
-  color: #000;
-
-  font-size: 1.25rem;
-  text-align: center;
-  line-height: 120%;
-  font-weight: 400;
-
-  transition: transform 0.2s ease-in-out;
 }
