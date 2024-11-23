@@ -45,11 +45,7 @@
   text-decoration: none;
   text-align: end;
   margin-left: 40px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .navbar a:hover {
@@ -95,20 +91,11 @@
   margin-bottom: 10px;
   font-size: 60px;
   color: #f0ebe5;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 
 #hero-section h2 {
   margin-bottom: 18px;
   color: #f0ebe5;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .hero-text button {
@@ -119,11 +106,7 @@
   color: #263a99;
   border-radius: 24px;
   height: 48px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 #hero-section button:hover {
@@ -141,10 +124,6 @@
   font-size: 25px;
   text-align: center;
   padding-top: 30px;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 
 .carrousel-cards {
@@ -202,11 +181,6 @@
   padding-top: 60px;
   margin-left: 30px;
   font-size: 16px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 #steps-section h1 {
@@ -214,29 +188,15 @@
   padding-top: 30px;
   margin-left: 30px;
   font-size: 54px;
-  text-shadow: 2px 3px #dcd0be;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 
 #steps-section h3 {
   font-size: 28px;
   padding-bottom: 10px;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
 }
 
 #steps-section p {
   font-size: 18px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .step-images {
@@ -284,21 +244,12 @@
   padding: 20px;
   font-size: 40px;
   color: #f0ebe5;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 
 #newsletter-section h2 {
   padding: 20px;
   font-size: 14px;
   color: #f0ebe5;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 #newsletter-section input {
@@ -306,11 +257,7 @@
   font-size: 16px;
   padding: 20px 16px 20px 14px;
   margin-top: 30px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 300;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 #newsletter-section button {
@@ -324,11 +271,7 @@
   padding-left: 50px;
   padding-right: 50px;
   width: auto;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
   font-weight: 600;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 #newsletter-section button:hover {
   background-color: #4a6fa5;
@@ -383,10 +326,6 @@
   display: block;
   width: 100%;
   margin-bottom: 20px;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
 }
 
 .inner-footer .footer-third a {
@@ -397,11 +336,6 @@
   font-weight: 200;
   margin-bottom: 20px;
   padding-bottom: 5px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
 
 .inner-footer .footer-third li {

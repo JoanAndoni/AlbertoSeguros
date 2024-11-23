@@ -23,21 +23,11 @@
 
 .about-me-content h1 {
   font-size: 60px;
-  font-weight: bold;
   color: #f0ebe5;
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
 }
 
 .about-me-content p {
   font-size: 20px;
   color: #f0ebe5;
   margin-top: 10px;
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
