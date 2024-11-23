@@ -1,11 +1,19 @@
 #services {
   padding: 140px 5% 90px;
+  background-color: #f0ebe5;
 }
 
 .services-header {
   text-transform: uppercase;
   padding: 1rem 0 2.5rem;
   font-size: 1.8rem;
+}
+
+#services h1 {
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
 }
 
 .grid-services-container {
@@ -113,11 +121,20 @@
   font-size: 1.5rem;
   font-weight: 900;
   line-height: 83%;
+  font-family: "Montserrat", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
 }
 
 .grid-card p {
   font-size: 1rem;
   line-height: 1.2;
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
 }
 
 .grid-card-image {
@@ -145,4 +162,32 @@
   align-items: center;
   justify-content: center;
   margin-top: 3rem;
+}
+
+.hero-button {
+  background-color: #263a99;
+  border: #263a99 solid 2px;
+  padding: 0.75rem 1.5rem;
+  border-radius: 32px;
+  width: max-content;
+  cursor: pointer;
+  color: #f0ebe5;
+
+  font-size: 1.25rem;
+  text-align: center;
+  line-height: 120%;
+  font-weight: 400;
+
+  transition: transform 0.2s ease-in-out;
+
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.hero-button:hover {
+  background-color: #f0ebe5;
+  color: #263a99;
 }
