@@ -1,0 +1,112 @@
+#services {
+  padding: 140px 5%;
+}
+
+.services-header {
+  text-transform: uppercase;
+  padding: 1rem 0 2.5rem;
+  font-size: 1.8rem;
+}
+
+.grid-services-container {
+  display: grid;
+
+  grid-template-rows: 18rem 18rem;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "vertical-img horizontal-img horizontal-img"
+    "vertical-img single-left single-right";
+
+  grid-column-gap: 2rem;
+  grid-row-gap: 2rem;
+
+  justify-items: stretch;
+  align-items: stretch;
+}
+
+.grid-services-container .grid-card {
+  display: flex;
+  padding: 2rem;
+  row-gap: 1.5rem;
+  border-radius: 12px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #23231e;
+}
+
+.grid-services-container .item-1 {
+  grid-area: vertical-img;
+  background-color: #d2ebf0;
+  padding: 0;
+  row-gap: 0;
+  overflow: hidden;
+}
+
+.grid-services-container .item-1 .grid-card-text {
+  height: 60%;
+}
+
+.grid-services-container .item-1 .grid-card-image {
+  height: 40%;
+  width: 100%;
+  display: flex;
+  overflow-x: hidden;
+}
+
+.grid-services-container .item-1 .grid-card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-services-container .item-2 {
+  grid-area: horizontal-img;
+  background-color: #23231e;
+  flex-direction: row;
+  overflow: hidden;
+  padding: 0;
+}
+
+.grid-services-container .item-2 .grid-card-text {
+  width: 40%;
+  color: white !important;
+}
+
+.grid-services-container .item-2 .grid-card-image {
+  width: 60%;
+  height: 100%;
+}
+
+.grid-services-container .item-2 .grid-card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-services-container .item-3 {
+  grid-area: single-left;
+  background-color: #c3e1c8;
+}
+
+.grid-services-container .item-4 {
+  grid-area: single-right;
+  background-color: #c8c8e6;
+}
+
+.grid-card .grid-card-icon {
+  height: 48px;
+}
+
+.grid-card h3 {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  font-weight: 900;
+  line-height: 83%;
+}
+.grid-card p {
+  font-size: 1rem;
+  line-height: 1.2;
+}
+
+.shadow-large {
+  box-shadow: 0 12px 16px -2px #00000014, 0 8px 8px -4px #00000008;
+}
