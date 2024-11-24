@@ -60,7 +60,7 @@
   min-height: 90vh;
   height: 100vh;
   width: 100%;
-  background-color: #4a6fa5;
+  background-color: #97b4de;
 }
 
 .hero-text {
@@ -189,38 +189,55 @@
   font-size: 54px;
 }
 
-#steps-section h3 {
-  font-size: 28px;
-  padding-bottom: 10px;
-  color: #f0ebe5;
+.step-card p {
+  padding: 10px 0;
 }
 
-#steps-section p {
-  font-size: 18px;
-  color: #f0ebe5;
-}
-
-.step-images {
-  height: 10vh;
-  padding-bottom: 10px;
-}
-
-.step-cards {
+.step-row {
   display: flex;
-  display: row;
+  justify-content: space-around;
   align-items: center;
-  justify-content: center;
-  gap: 200px;
-  padding: 110px 0;
+  margin-top: 90px;
 }
 
-#first-step-card,
-#second-step-card,
-#third-step-card {
-  border: solid 2px transparent;
-  border-radius: 24px;
-  padding: 0px 70px 70px 70px;
-  text-align: left;
+.step-card {
+  border-radius: 10px;
+  filter: drop-shadow(0 5px 10px 0 #ffffff);
+  width: 300px;
+  height: 180px;
+  background-color: #ffffff;
+  color: #2a2829;
+
+  padding: 20px;
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  transition: 0.6s ease-in;
+}
+
+.step-card::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  right: -15px;
+  background: #97b4de;
+  height: 220px;
+  width: 25px;
+  border-radius: 32px;
+  transform: scale(1);
+  transform-origin: 50% 50%;
+  transition: transform 0.25s ease-out;
+}
+
+.step-card:hover::before {
+  transition-delay: 0.2s;
+
+  transform: scale(40);
+}
+
+.step-card:hover {
+  color: #f0ebe5;
 }
 
 #newsletter-section {
