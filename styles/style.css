@@ -67,7 +67,7 @@
   display: flex;
   flex-direction: column;
   width: 60%;
-  margin: 30px;
+  margin: 50px;
   color: white;
 }
 
@@ -91,9 +91,10 @@
   color: #f0ebe5;
 }
 
-#hero-section h2 {
+#hero-section p {
   margin-bottom: 18px;
   color: #f0ebe5;
+  width: 70%;
 }
 
 .hero-text button {
@@ -105,7 +106,6 @@
   border-radius: 24px;
   height: 48px;
   font-weight: 600;
-  margin-top: 10px;
 }
 
 #hero-section button:hover {
@@ -114,7 +114,7 @@
 }
 
 #carrousel-section {
-  background-color: #dcd0be;
+  background-color: #f0ebe5;
   height: 250px;
 }
 
@@ -168,7 +168,7 @@
 }
 
 #steps-section {
-  background-color: #f0ebe5;
+  background-color: #263a99;
   min-height: 90vh;
   height: 100vh;
   width: 100%;
@@ -176,14 +176,14 @@
 }
 
 #steps-section h2 {
-  color: #4a6fa5;
-  padding-top: 60px;
+  color: #f0ebe5;
+  margin-top: 110px;
   margin-left: 30px;
   font-size: 16px;
 }
 
 #steps-section h1 {
-  color: #4a6fa5;
+  color: #f0ebe5;
   padding-top: 30px;
   margin-left: 30px;
   font-size: 54px;
@@ -192,10 +192,12 @@
 #steps-section h3 {
   font-size: 28px;
   padding-bottom: 10px;
+  color: #f0ebe5;
 }
 
 #steps-section p {
   font-size: 18px;
+  color: #f0ebe5;
 }
 
 .step-images {
