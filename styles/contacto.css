@@ -1,23 +1,27 @@
-body,
-html {
-  height: 100%;
-}
-
-.hero-image {
+#contacto {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("images/Phone-call");
-  height: 50%;
+    url("../images/Phone-call.jpg");
+  min-height: 100vh;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 }
 
-.hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+.contacto-content {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  text-align: end;
+}
+
+.contacto-content h1 {
+  font-size: 60px;
+  color: #f0ebe5;
 }
