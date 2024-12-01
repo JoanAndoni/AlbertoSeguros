@@ -1,27 +1,35 @@
 #contacto {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../images/Phone-call.jpg");
-  min-height: 100vh;
+  min-height: 70vh;
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
   background-attachment: fixed;
 
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 .contacto-content {
-  padding: 50px;
+  padding: 30px;
   display: flex;
-  flex-direction: column;
   width: 50%;
-  text-align: end;
 }
 
 .contacto-content h1 {
   font-size: 60px;
   color: #f0ebe5;
+  text-align: center;
+}
+#mc_embed_shell {
+  background-color: #f0ebe5;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 25px;
+}
+#mc_embed_signup {
+  text-align: center;
+}
+#mc-field-group {
 }
