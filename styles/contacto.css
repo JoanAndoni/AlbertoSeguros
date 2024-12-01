@@ -31,5 +31,18 @@
 #mc_embed_signup {
   text-align: center;
 }
-#mc-field-group {
+.mc-field-group {
+  margin: 15px;
+  padding: auto;
+}
+
+.OptionalParent button {
+  margin: 10px;
+}
+.button {
+  border-radius: 10px;
+}
+.button:hover {
+  background-color: black;
+  color: #f0ebe5;
 }
