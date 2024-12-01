@@ -23,6 +23,9 @@
   color: #f0ebe5;
   text-align: center;
 }
+#mc_embed_signup_scroll h2 {
+  padding: 30px;
+}
 #mc_embed_shell {
   background-color: #f0ebe5;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
