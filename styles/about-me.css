@@ -1,8 +1,9 @@
 #about-me-section {
-  background-color: #2a64c5;
-  min-height: 90vh;
-  height: 100vh;
-  width: 100%;
+  background-image: url(../images/Alberto-hero.png);
+  min-height: 100vh;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 
   display: flex;
   flex-direction: column;
@@ -18,27 +19,13 @@
   text-align: end;
 }
 
-.alberto-img {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-}
-
-.alberto-img img {
-  height: 100%;
-  width: 100vw;
-}
-
 .about-me-content h1 {
   font-size: 60px;
-  color: #f0ebe5;
+  color: #fff;
 }
 
 .about-me-content p {
   font-size: 20px;
-  color: #f0ebe5;
+  color: #fff;
   margin-top: 10px;
 }
