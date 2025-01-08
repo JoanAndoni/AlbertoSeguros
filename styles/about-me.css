@@ -1,9 +1,8 @@
 #about-me-section {
-  background-image: url(../images/Alberto-hero.png);
-  min-height: 100vh;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-color: #263a99;
+  min-height: 90vh;
+  height: 100vh;
+  width: 100%;
 
   display: flex;
   flex-direction: column;
