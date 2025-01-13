@@ -29,7 +29,7 @@
 }
 #mc_embed_shell {
   background-color: #f0ebe5;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: Monserrat, serif;
   font-size: 25px;
 }
 #mc_embed_signup {
@@ -49,6 +49,7 @@
   border-radius: 24px;
   height: 48px;
   font-weight: 600;
+  margin-bottom: 20px;
 }
 .button:hover {
   background-color: #f0ebe5;
