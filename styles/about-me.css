@@ -84,6 +84,10 @@
     text-align: center; /* Center align text */
   }
 
+  .alberto-img img {
+    padding: 0;
+  }
+
   .about-me-content {
     margin-top: 90px; /* Add spacing between text and image */
   }
