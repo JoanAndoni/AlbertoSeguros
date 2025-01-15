@@ -1,59 +1,60 @@
 #contacto {
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
     url("../images/Phone-call.jpg");
-  min-height: 70vh;
+  min-height: 100vh;
   background-position: center;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-
   display: flex;
+  flex-direction: column;
+  vertical-align: middle;
   justify-content: center;
   align-items: center;
 }
-
 .contacto-content {
   padding: 30px;
   display: flex;
+  vertical-align: middle;
+  justify-content: center;
+  align-items: center;
   width: 50%;
 }
-
 .contacto-content h1 {
   font-size: 60px;
   color: #f0ebe5;
   text-align: center;
-}
-#mc_embed_signup_scroll h2 {
-  padding: 30px;
-  color: #4a6fa5;
+  margin: 40px;
 }
 #mc_embed_shell {
-  background-color: #f0ebe5;
-  font-family: Monserrat, serif;
+  color: #4a6fa5;
+  background-color: none;
+  font-family: "Montserrat", serif;
   font-size: 25px;
 }
 #mc_embed_signup {
   text-align: center;
+  display: flex;
 }
 .mc-field-group {
   margin: 15px;
   padding: auto;
 }
-
 .button {
-  background-color: #263a99;
-  border: #263a99 solid 2px;
-  width: 20%;
+  background-color: #f0ebe5;
+  border: #f0ebe5 solid 2px;
+  width: 25%;
   padding: 5px;
-  color: #f0ebe5;
+  color: #4a6fa5;
   border-radius: 24px;
   height: 48px;
   font-weight: 600;
   margin-bottom: 20px;
 }
 .button:hover {
-  background-color: #f0ebe5;
-  color: #263a99;
+  background-color: #4a6fa5;
+  color: #f0ebe5;
+  border: #4a6fa5;
 }
 .clear-foot {
   padding: 20px;
