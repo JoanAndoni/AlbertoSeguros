@@ -40,6 +40,10 @@
   margin: 15px;
   padding: auto;
 }
+.mc-field-group input {
+  font-family: "Montserrat", serif;
+  font-size: 25px;
+}
 .button {
   background-color: #f0ebe5;
   border: #f0ebe5 solid 2px;
