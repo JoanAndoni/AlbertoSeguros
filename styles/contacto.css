@@ -1,11 +1,10 @@
 #contacto {
   background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
-    url("../images/Phone-call.jpg");
+    url("../images/Contact\ img.jpg");
   min-height: 100vh;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   vertical-align: middle;
@@ -28,9 +27,13 @@
 }
 #mc_embed_shell {
   color: #4a6fa5;
-  background-color: none;
+  background-color: #f0ebe5;
   font-family: "Montserrat", serif;
-  font-size: 25px;
+  font-size: 20px;
+  border-radius: 10px;
+}
+#mc_embed_shell form {
+  margin-top: 20px;
 }
 #mc_embed_signup {
   text-align: center;
@@ -46,7 +49,7 @@
 }
 .button {
   background-color: #f0ebe5;
-  border: #f0ebe5 solid 2px;
+  border: #4a6fa5 solid 2px;
   width: 25%;
   padding: 5px;
   color: #4a6fa5;
