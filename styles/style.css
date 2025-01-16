@@ -14,7 +14,7 @@
   z-index: 100;
 }
 .header img {
-  height: 50px;
+  height: 60px;
   width: auto;
 }
 
@@ -351,7 +351,7 @@
 }
 
 .inner-footer .logo-container img {
-  width: 65px;
+  max-width: 50%;
   height: auto;
 }
 
