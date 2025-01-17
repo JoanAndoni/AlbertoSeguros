@@ -13,6 +13,7 @@
   align-items: center;
   z-index: 100;
 }
+
 .header img {
   height: 60px;
   width: auto;
@@ -25,7 +26,7 @@
 .navbar a {
   transition: 0.4s;
   color: #4a6fa5;
-  font-size: 1.9rem;
+  font-size: 2rem;
   text-decoration: none;
   margin-left: 2.5rem;
   display: inline-block;
@@ -120,9 +121,9 @@
 #hero-section p {
   margin-bottom: 18px;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 25px;
   color: #f0ebe5;
-  width: 70%;
+  width: 75%;
 }
 
 .hero-text button {
@@ -142,16 +143,52 @@
 }
 
 @media (max-width: 1024px) and (min-width: 768px) {
+  #hero-section {
+    flex-direction: column-reverse; /* Stack text on top of image */
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 90%;
+  }
+
   .hero-img {
-    width: 50%; /* Reduce width slightly for medium screens */
+    width: 100%; /* Reduce width slightly for medium screens */
+    height: 90%;
   }
 
   .hero-text h1 {
-    font-size: 50px; /* Slightly smaller heading */
+    font-size: 40px; /* Slightly smaller heading */
   }
 
-  .hero-text p {
-    font-size: 18px; /* Slightly smaller paragraph text */
+  #hero-section p {
+    font-size: 20px; /* Slightly smaller paragraph text */
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero-section {
+    flex-direction: column-reverse; /* Stack text on top of image */
+    align-items: center;
+  }
+
+  .hero-text {
+    width: 90%;
+  }
+
+  .hero-img {
+    width: 100%; /* Reduce width slightly for medium screens */
+    height: 90%;
+  }
+
+  #hero-section h1 {
+    font-size: 35px; /* Slightly smaller heading */
+  }
+
+  #hero-section p {
+    font-size: 15px; /* Slightly smaller paragraph text */
+    width: 100%;
   }
 }
 
