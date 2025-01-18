@@ -298,10 +298,10 @@
 
 .step-card {
   border-radius: 10px;
-  filter: drop-shadow(0 5px 10px 0 #ffffff);
+  filter: drop-shadow(0 5px 10px 0 #f0ebe5);
   width: 300px;
   height: 180px;
-  background-color: #ffffff;
+  background-color: #f0ebe5;
   color: #2a2829;
 
   padding: 20px;
