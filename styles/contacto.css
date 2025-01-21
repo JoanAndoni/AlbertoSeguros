@@ -13,7 +13,6 @@
 }
 
 .contacto-content {
-  padding: 30px;
   display: flex;
   vertical-align: middle;
   justify-content: center;
@@ -59,6 +58,7 @@
   color: #f0ebe5;
   flex-direction: column;
   font-weight: 300;
+  justify-content: center;
 }
 .text h3 {
   color: #f0ebe5;
@@ -81,13 +81,14 @@
 }
 .indicates-required {
   font-size: 30px;
-  width: 175%;
+  width: 160%;
   color: #4a6fa5;
   font-weight: 500;
+  padding-top: 20px;
 }
 .mc-field-group {
   position: relative;
-  width: 160%;
+  width: 145%;
   margin: 15px;
 }
 .mc-field-group input {
@@ -103,7 +104,7 @@
 .mc-field-group span {
   position: absolute;
   left: 0;
-  padding: 3px 0;
+  padding: 2px 0;
   font-size: 16px;
   margin: 10px 0;
   pointer-events: none;
