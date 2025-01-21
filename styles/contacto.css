@@ -42,6 +42,7 @@
   display: flex;
 }
 .icon {
+  color: #f0ebe5;
   min-width: 60px;
   height: 60px;
   background: #263a99;
