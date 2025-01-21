@@ -1,5 +1,5 @@
 #about-me-section {
-  background-color: #263a99;
+  background-color: #f0ebe5;
   min-height: 100vh;
   height: auto;
   width: 100%;
@@ -39,12 +39,12 @@
 
 .about-me-content h1 {
   font-size: 50px;
-  color: #f0ebe5;
+  color: #263a99;
 }
 
 .about-me-content p {
   font-size: 19px;
-  color: #f0ebe5;
+  color: #263a99;
   margin-top: 10px;
 }
 
