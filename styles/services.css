@@ -101,7 +101,7 @@
 
 .grid-services-container .item-9 {
   grid-area: horizontal-img-3;
-  background-color: #e9e9e8;
+  background-color: #fac898;
 }
 
 .item-horizontal {
@@ -180,17 +180,17 @@
 
 .grid-services-container-empresariales .item-emp-1 {
   grid-area: single-emp-1;
-  background-color: #f0eb50;
+  background-color: white;
 }
 
 .grid-services-container-empresariales .item-emp-2 {
   grid-area: horizontal-emp-img-1;
-  background-color: green;
+  background-color: #fdf9e0;
 }
 
 .grid-services-container-empresariales .item-emp-3 {
   grid-area: horizontal-emp-img-2;
-  background-color: green;
+  background-color: #97b4de;
 }
 
 .call-to-action {
