@@ -180,7 +180,11 @@
 
 .grid-services-container-empresariales .item-emp-1 {
   grid-area: single-emp-1;
-  background-color: white;
+  background-color: #23231e;
+}
+
+.grid-services-container-empresariales .item-emp-1 .grid-card-text {
+  color: white !important;
 }
 
 .grid-services-container-empresariales .item-emp-2 {
