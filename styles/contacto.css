@@ -22,6 +22,7 @@
   font-size: 60px;
   color: #f0ebe5;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .container {
@@ -74,22 +75,26 @@
   font-size: 16px;
   border-radius: 10px;
 }
-
 #mc_embed_signup {
   text-align: center;
   align-items: center;
   display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+#mc_embed_signup form {
+  width: 100%;
 }
 .indicates-required {
   font-size: 30px;
-  width: 160%;
+  width: 100%;
   color: #4a6fa5;
   font-weight: 500;
   padding-top: 20px;
 }
 .mc-field-group {
   position: relative;
-  width: 145%;
   margin: 15px;
 }
 .mc-field-group input {
@@ -130,7 +135,7 @@
   height: 48px;
   font-weight: 600;
   margin-bottom: 20px;
-  margin-left: 110px;
+  margin-left: 10px;
 }
 .button:hover {
   background-color: #4a6fa5;
