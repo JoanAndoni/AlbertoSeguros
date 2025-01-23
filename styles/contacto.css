@@ -4,7 +4,6 @@
   min-height: 100vh;
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
   padding: 50px 100px;
   display: flex;
   flex-direction: column;
@@ -145,11 +144,44 @@
 .clear-foot {
   padding: 20px;
 }
-@media (max-width: 991px) {
+/* Medium size screens*/
+@media (max-width: 1024px) and (min-width: 570px) {
   .contacto {
     padding: 50px;
   }
   .container {
     flex-direction: column;
+    align-items: center;
+  }
+  .contacto-content {
+    margin-top: 40px;
+  }
+  .contact-info {
+    margin-bottom: 30px;
+  }
+  .email-registration {
+    width: 50%;
+  }
+}
+/* Small size screens*/
+@media (max-width: 569px) and (min-width: 375px) {
+  #contacto {
+    background-position: center;
+    width: 100%;
+  }
+  .container {
+    flex-direction: column;
+  }
+  .contacto-content {
+    margin-top: 30px;
+    padding: 20px;
+  }
+  .contact-info {
+    width: 100%;
+    margin-bottom: 30px;
+    align-items: center;
+  }
+  .email-registration {
+    width: 100%;
   }
 }
