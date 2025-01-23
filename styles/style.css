@@ -337,7 +337,7 @@
 }
 
 #newsletter-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
     url("../images/newsletter.jpg");
   min-height: 100vh;
   background-position: center;
@@ -362,7 +362,7 @@
 
 #newsletter-section h2 {
   padding: 20px;
-  font-size: 14px;
+  font-size: 20px;
   color: #f0ebe5;
 }
 
@@ -375,7 +375,7 @@
 }
 
 #newsletter-section button {
-  color: #263a99;
+  color: #4a6fa5;
   margin-top: 30px;
   height: 48px;
   margin-top: 30px;
