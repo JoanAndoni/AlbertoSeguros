@@ -259,7 +259,7 @@
   .grid-services-container {
     /* TO DO */
     grid-template-columns: 1fr;
-    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
     grid-template-areas:
       "vertical-img-1"
       "vertical-img-1"
