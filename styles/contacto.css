@@ -160,14 +160,12 @@
     margin-bottom: 30px;
   }
   .email-registration {
-    width: 50%;
   }
 }
 /* Small size screens*/
 @media (max-width: 569px) and (min-width: 375px) {
   #contacto {
     background-position: center;
-    width: 100%;
   }
   .container {
     flex-direction: column;
@@ -177,8 +175,12 @@
     padding: 20px;
   }
   .contact-info {
-    width: 100%;
     margin-bottom: 30px;
+    width: 100%;
+    margin-right: 85px;
+    text-align: center;
+  }
+  .contact-info box {
     align-items: center;
   }
   .email-registration {
