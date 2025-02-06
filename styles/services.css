@@ -63,7 +63,7 @@
 
 .grid-services-container .item-2 {
   grid-area: horizontal-img-1;
-  background-color: #23231e;
+  background-color: #c8c8e6;
 }
 
 .grid-services-container .item-2 .grid-card-text {
@@ -77,7 +77,7 @@
 
 .grid-services-container .item-4 {
   grid-area: single-2;
-  background-color: #c8c8e6;
+  background-color: #e5a0e6;
 }
 
 .grid-services-container .item-5 {
@@ -181,7 +181,7 @@
 
 .grid-services-container-empresariales .item-emp-1 {
   grid-area: single-emp-1;
-  background-color: #23231e;
+  background-color: #c8c8e6;
 }
 
 .grid-services-container-empresariales .item-emp-1 .grid-card-text {
