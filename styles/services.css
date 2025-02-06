@@ -7,7 +7,7 @@
   text-transform: uppercase;
   padding: 1rem 0 2.5rem;
   font-size: 1.8rem;
-  color: #263a99;
+  color: #263e4a;
 }
 .seguros-personales-header {
   text-transform: uppercase;
@@ -207,8 +207,8 @@
 }
 
 .hero-button {
-  background-color: #263a99;
-  border: #263a99 solid 2px;
+  background-color: #263e4a;
+  border: #263e4a solid 2px;
   padding: 0.75rem 1.5rem;
   border-radius: 32px;
   width: max-content;
@@ -225,7 +225,7 @@
 
 .hero-button:hover {
   background-color: #f0ebe5;
-  color: #263a99;
+  color: #263e4a;
 }
 
 /* Media Query for Medium Screens (768px - 1024px) */
