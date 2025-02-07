@@ -45,7 +45,7 @@
   color: #f0ebe5;
   min-width: 60px;
   height: 60px;
-  background: #758ecd;
+  background: #dea54b;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -103,7 +103,7 @@
   position: relative;
   width: 100%;
   margin-top: 10px;
-  border-bottom: 2px solid #758ecd;
+  border-bottom: 2px solid #dea54b;
   outline: none;
   resize: none;
 }
@@ -121,7 +121,7 @@
 .mc-field-group input:valid ~ span,
 .mc-field-group textarea:focus ~ span,
 .mc-field-group textarea:valid ~ span {
-  color: #758ecd;
+  color: #dea54b;
   font-size: 12px;
   transform: translateY(-20px);
 }
