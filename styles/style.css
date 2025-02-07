@@ -124,7 +124,7 @@
   min-height: 90vh;
   height: 100vh;
   width: 100%;
-  background-color: #97b4de;
+  background-color: #163441;
 }
 
 .hero-text {
@@ -153,34 +153,37 @@
   margin-bottom: 15px;
   font-size: 60px;
   color: #263e4a;
+  font-size: 53px;
+  color: #ffffff;
 }
 
 #hero-section p {
   margin-bottom: 18px;
   font-weight: 500;
-  font-size: 25px;
-  color: #f0ebe5;
+  font-size: 19px;
+  color: #ffffff;
   width: 90%;
 }
 
 .hero-text button {
-  background-color: #f0ebe5;
-  border: #f0ebe5 solid 2px;
+  background-color: #ffffff;
+  border: #ffffff solid 2px;
   width: 30%; /* This is fixed; we'll make it fluid */
   max-width: 200px; /* Limit maximum size */
   padding: 10px 20px; /* Adjusted for better appearance */
   color: #263e4a;
+  color: #163441;
   border-radius: 24px;
   height: auto; /* Allow height to adjust dynamically */
   font-weight: 600;
-  font-size: 1rem; /* Use relative units */
+  font-size: 0.9rem; /* Use relative units */
   transition: all 0.3s ease; /* Smooth transitions for hover effects */
   cursor: pointer; /* Indicate button is clickable */
   text-align: center;
 }
 
 #hero-section button:hover {
-  background-color: #97b4de;
+  background-color: #163441;
   color: #f0ebe5;
 }
 
@@ -204,7 +207,7 @@
   }
 
   #hero-section p {
-    font-size: 20px; /* Slightly smaller paragraph text */
+    font-size: 18px; /* Slightly smaller paragraph text */
     width: 100%;
   }
 
@@ -252,6 +255,7 @@
 
 #carrousel-section h3 {
   color: #263e4a;
+  color: #003355ff;
   font-size: 25px;
   text-align: center;
   padding-top: 30px;
@@ -302,6 +306,7 @@
 
 #steps-section {
   background-color: #263e4a;
+  background-color: #163441;
   min-height: 90vh;
   height: 100vh;
   width: 100%;
