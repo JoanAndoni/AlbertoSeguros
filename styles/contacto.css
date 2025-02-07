@@ -70,7 +70,8 @@
   padding: 10px;
   color: #758ecd;
   background-color: #f0ebe5;
-  font-family: "Times New Roman", Times, serif;
+  font-family: "indivisible", sans-serif;
+  font-variation-settings: "wght" 200, "opsz" 8;
   font-size: 16px;
   border-radius: 10px;
 }
