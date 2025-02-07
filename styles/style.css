@@ -40,10 +40,6 @@
   margin: 0 5px;
   position: relative;
   border-bottom: 2px solid transparent;
-
-  font-family: "Dongle", serif;
-  font-weight: 400;
-  font-style: normal;
 }
 
 .navbar a:hover {
@@ -398,7 +394,7 @@
   color: #f0ebe5;
 }
 
-#newsletter-section h2 {
+#newsletter-section p {
   padding: 20px;
   font-size: 20px;
   color: #f0ebe5;

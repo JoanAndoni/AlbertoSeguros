@@ -186,40 +186,14 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Montserrat", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+  font-family: "antonia-variable", sans-serif;
+  font-variation-settings: "wght" 500, "opsz" 8;
 }
 
 p,
 a,
 li,
 button {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
-}
-
-@font-face {
-  font-family: "Dongle";
-  src: url("../styles/fonts/Dongle/Dongle-Regular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Dongle";
-  src: url("../styles/fonts/Dongle/Dongle-Bold.ttf") format("truetype");
-  font-weight: bold;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: "Dongle";
-  src: url("../styles/fonts/Dongle/Dongle-Light.ttf") format("truetype");
-  font-weight: 300;
-  font-style: normal;
+  font-family: "indivisible", sans-serif;
+  font-variation-settings: "wght" 200, "opsz" 8;
 }
