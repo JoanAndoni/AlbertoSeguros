@@ -58,12 +58,12 @@
 
 .grid-services-container .item-1 {
   grid-area: vertical-img-1;
-  background-color: #97b4de;
+  background-color: #dea54b;
 }
 
 .grid-services-container .item-2 {
   grid-area: horizontal-img-1;
-  background-color: #23231e;
+  background-color: #0f262f;
 }
 
 .grid-services-container .item-2 .grid-card-text {
@@ -72,12 +72,12 @@
 
 .grid-services-container .item-3 {
   grid-area: single-1;
-  background-color: #c3e1c8;
+  background-color: #ebebdc;
 }
 
 .grid-services-container .item-4 {
   grid-area: single-2;
-  background-color: #e5a0e6;
+  background-color: #005b5c;
 }
 
 .grid-services-container .item-5 {
@@ -87,7 +87,7 @@
 
 .grid-services-container .item-6 {
   grid-area: single-4;
-  background-color: white;
+  background-color: #163441;
 }
 
 .grid-services-container .item-7 {
@@ -181,7 +181,7 @@
 
 .grid-services-container-empresariales .item-emp-1 {
   grid-area: single-emp-1;
-  background-color: #23231e;
+  background-color: #005b5c;
 }
 
 .grid-services-container-empresariales .item-emp-1 .grid-card-text {
@@ -234,7 +234,7 @@
     /* TO DO */
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
     grid-template-areas:
       "vertical-img-1 horizontal-img-1"
       "vertical-img-1 horizontal-img-1"
@@ -242,7 +242,8 @@
       "single-3 single-4"
       "vertical-img-2 horizontal-img-2"
       "vertical-img-2 horizontal-img-2"
-      "horizontal-img-3 horizontal-img-3";
+      "horizontal-img-3 null"
+      "horizontal-img-3 null";
   }
 
   .grid-services-container-empresariales {
@@ -250,8 +251,22 @@
     grid-template-rows: 18rem 18rem 18rem;
     grid-template-areas:
       "single-emp-1 single-emp-1"
-      "horizontal-emp-img-1 horizontal-emp-img-1"
-      "horizontal-emp-img-2 horizontal-emp-img-2";
+      "horizontal-emp-img-1 horizontal-emp-img-2"
+      "horizontal-emp-img-1 horizontal-emp-img-2";
+  }
+
+  .item-horizontal {
+    flex-direction: column !important;
+  }
+
+  .grid-card-text.horizontal {
+    height: 60% !important;
+    width: 100% !important;
+  }
+
+  .grid-card-image.horizontal {
+    height: 40% !important;
+    width: 100% !important;
   }
 }
 
@@ -287,5 +302,19 @@
       "horizontal-emp-img-1"
       "horizontal-emp-img-2"
       "horizontal-emp-img-2";
+  }
+
+  .item-horizontal {
+    flex-direction: column !important;
+  }
+
+  .grid-card-text.horizontal {
+    height: 60% !important;
+    width: 100% !important;
+  }
+
+  .grid-card-image.horizontal {
+    height: 40% !important;
+    width: 100% !important;
   }
 }
