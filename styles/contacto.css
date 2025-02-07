@@ -45,7 +45,7 @@
   color: #f0ebe5;
   min-width: 60px;
   height: 60px;
-  background: #263a99;
+  background: #758ecd;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,7 +68,7 @@
 .email-registration {
   width: 30%;
   padding: 10px;
-  color: #263a99;
+  color: #758ecd;
   background-color: #f0ebe5;
   font-family: "Times New Roman", Times, serif;
   font-size: 16px;
@@ -88,7 +88,7 @@
 .indicates-required {
   font-size: 30px;
   width: 100%;
-  color: #4a6fa5;
+  color: #0f262f;
   font-weight: 500;
   padding-top: 20px;
 }
@@ -102,7 +102,7 @@
   position: relative;
   width: 100%;
   margin-top: 10px;
-  border-bottom: 2px solid #4a6fa5;
+  border-bottom: 2px solid #758ecd;
   outline: none;
   resize: none;
 }
@@ -113,23 +113,23 @@
   font-size: 16px;
   margin: 10px 0;
   pointer-events: none;
-  color: #666;
+  color: #0f262f;
   transition: 1s;
 }
 .mc-field-group input:focus ~ span,
 .mc-field-group input:valid ~ span,
 .mc-field-group textarea:focus ~ span,
 .mc-field-group textarea:valid ~ span {
-  color: #263a99;
+  color: #758ecd;
   font-size: 12px;
   transform: translateY(-20px);
 }
 .button {
   background-color: #f0ebe5;
-  border: #4a6fa5 solid 2px;
+  border: #0f262f solid 2px;
   width: 40%;
   padding: 5px;
-  color: #4a6fa5;
+  color: #0f262f;
   border-radius: 24px;
   height: 48px;
   font-weight: 600;
@@ -137,9 +137,9 @@
   margin-left: 10px;
 }
 .button:hover {
-  background-color: #4a6fa5;
+  background-color: #0f262f;
   color: #f0ebe5;
-  border: #4a6fa5;
+  border: #0f262f;
 }
 .clear-foot {
   padding: 20px;
