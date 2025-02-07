@@ -234,14 +234,14 @@
     /* TO DO */
 
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 18rem 18rem 18rem 18rem 18rem;
+    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
     grid-template-areas:
       "vertical-img-1 horizontal-img-1"
-      "vertical-img-1 single-1"
-      "single-2 vertical-img-2"
-      "single-3 vertical-img-2"
-      "single-4 single-4"
-      "horizontal-img-2 horizontal-img-2"
+      "vertical-img-1 horizontal-img-1"
+      "single-2 single-1"
+      "single-3 single-4"
+      "vertical-img-2 horizontal-img-2"
+      "vertical-img-2 horizontal-img-2"
       "horizontal-img-3 horizontal-img-3";
   }
 
@@ -260,10 +260,11 @@
   .grid-services-container {
     /* TO DO */
     grid-template-columns: 1fr;
-    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
+    grid-template-rows: 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem 18rem;
     grid-template-areas:
       "vertical-img-1"
       "vertical-img-1"
+      "horizontal-img-1"
       "horizontal-img-1"
       "single-1"
       "single-2"
@@ -272,15 +273,19 @@
       "vertical-img-2"
       "single-4"
       "horizontal-img-2"
+      "horizontal-img-2"
+      "horizontal-img-3"
       "horizontal-img-3";
   }
 
   .grid-services-container-empresariales {
     grid-template-columns: 1fr;
-    grid-template-rows: 18rem 18rem 18rem;
+    grid-template-rows: 18rem 18rem 18rem 18rem 18rem;
     grid-template-areas:
       "single-emp-1"
       "horizontal-emp-img-1"
+      "horizontal-emp-img-1"
+      "horizontal-emp-img-2"
       "horizontal-emp-img-2";
   }
 }
